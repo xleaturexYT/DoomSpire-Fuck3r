@@ -1,0 +1,565 @@
+-- made by xleaturex
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local SomeFunctions = Instance.new("Frame")
+local FunctionLabel = Instance.new("TextLabel")
+local Credits = Instance.new("TextButton")
+local Teleporters = Instance.new("TextButton")
+local MainName = Instance.new("Frame")
+local Name = Instance.new("TextLabel")
+local Top1 = Instance.new("TextButton")
+local T = Instance.new("TextButton")
+local Bottom2Script = Instance.new("TextButton")
+local Top2 = Instance.new("TextButton")
+local Bottom1 = Instance.new("TextButton")
+local Top3 = Instance.new("TextButton")
+local Bottom4 = Instance.new("TextButton")
+local Top4 = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local Red = Instance.new("TextLabel")
+local Blue = Instance.new("TextLabel")
+local Green = Instance.new("TextLabel")
+local Yellow = Instance.new("TextLabel")
+local Credits_2 = Instance.new("Frame")
+local Credits_3 = Instance.new("TextLabel")
+local UPDATELOG = Instance.new("TextLabel")
+local ESP = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+local ESP_2 = Instance.new("TextLabel")
+local FunctionFrameLol = Instance.new("Frame")
+local Functions = Instance.new("TextLabel")
+local Name_2 = Instance.new("TextLabel")
+local ESP_3 = Instance.new("TextButton")
+local Killall = Instance.new("TextButton")
+local Functions_2 = Instance.new("TextButton")
+local RGBFrame = Instance.new("Frame")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.Active = true
+Main.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Main.Position = UDim2.new(0.0827702656, 0, 0.63144964, 0)
+Main.Size = UDim2.new(0, 347, 0, 211)
+Main.Draggable = true
+
+SomeFunctions.Name = "Some Functions"
+SomeFunctions.Parent = Main
+SomeFunctions.Active = true
+SomeFunctions.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+SomeFunctions.BackgroundTransparency = 0.250
+SomeFunctions.Position = UDim2.new(1, 0, -0.249011874, 0)
+SomeFunctions.Size = UDim2.new(0, 73, 0, 263)
+
+FunctionLabel.Name = "Function Label"
+FunctionLabel.Parent = SomeFunctions
+FunctionLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FunctionLabel.BackgroundTransparency = 1.000
+FunctionLabel.Size = UDim2.new(0, 73, 0, 34)
+FunctionLabel.Font = Enum.Font.SourceSans
+FunctionLabel.Text = "Doomspire Fucker"
+FunctionLabel.TextColor3 = Color3.fromRGB(150, 150, 150)
+FunctionLabel.TextScaled = true
+FunctionLabel.TextSize = 14.000
+FunctionLabel.TextWrapped = true
+
+Credits.Name = "Credits"
+Credits.Parent = SomeFunctions
+Credits.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Credits.BackgroundTransparency = 0.900
+Credits.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Credits.Position = UDim2.new(0, 0, 0.186046511, 0)
+Credits.Size = UDim2.new(0, 73, 0, 27)
+Credits.Font = Enum.Font.SourceSans
+Credits.Text = "Credits n update log"
+Credits.TextColor3 = Color3.fromRGB(129, 129, 129)
+Credits.TextScaled = true
+Credits.TextSize = 14.000
+Credits.TextWrapped = true
+
+Teleporters.Name = "Teleporters"
+Teleporters.Parent = SomeFunctions
+Teleporters.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Teleporters.BackgroundTransparency = 0.900
+Teleporters.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Teleporters.Position = UDim2.new(0, 0, 0.527131855, 0)
+Teleporters.Size = UDim2.new(0, 73, 0, 27)
+Teleporters.Font = Enum.Font.SourceSans
+Teleporters.Text = "Teleporters"
+Teleporters.TextColor3 = Color3.fromRGB(129, 129, 129)
+Teleporters.TextScaled = true
+Teleporters.TextSize = 14.000
+Teleporters.TextWrapped = true
+
+MainName.Name = "Main Name"
+MainName.Parent = Main
+MainName.Active = true
+MainName.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+MainName.Position = UDim2.new(0, 0, -0.249011874, 0)
+MainName.Size = UDim2.new(0, 347, 0, 52)
+
+Name.Name = "Name"
+Name.Parent = MainName
+Name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Name.BackgroundTransparency = 1.000
+Name.Size = UDim2.new(0, 347, 0, 52)
+Name.Font = Enum.Font.SourceSans
+Name.Text = "Doomspire Fucker"
+Name.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name.TextScaled = true
+Name.TextSize = 14.000
+Name.TextWrapped = true
+
+Top1.Name = "Top1"
+Top1.Parent = MainName
+Top1.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Top1.Position = UDim2.new(0, 0, 2.90384603, 0)
+Top1.Size = UDim2.new(0, 72, 0, 36)
+Top1.Font = Enum.Font.SourceSans
+Top1.Text = "Top"
+Top1.TextColor3 = Color3.fromRGB(0, 0, 0)
+Top1.TextScaled = true
+Top1.TextSize = 14.000
+Top1.TextWrapped = true
+
+T.Name = "T"
+T.Parent = MainName
+T.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+T.Position = UDim2.new(0, 0, 4.07692289, 0)
+T.Size = UDim2.new(0, 72, 0, 36)
+T.Font = Enum.Font.SourceSans
+T.Text = "Bottom"
+T.TextColor3 = Color3.fromRGB(0, 0, 0)
+T.TextScaled = true
+T.TextSize = 14.000
+T.TextWrapped = true
+
+Bottom2Script.Name = "Bottom 2 Script"
+Bottom2Script.Parent = MainName
+Bottom2Script.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Bottom2Script.Position = UDim2.new(0.230547547, 0, 4.07692289, 0)
+Bottom2Script.Size = UDim2.new(0, 72, 0, 36)
+Bottom2Script.Font = Enum.Font.SourceSans
+Bottom2Script.Text = "Bottom"
+Bottom2Script.TextColor3 = Color3.fromRGB(0, 0, 0)
+Bottom2Script.TextScaled = true
+Bottom2Script.TextSize = 14.000
+Bottom2Script.TextWrapped = true
+
+Top2.Name = "Top2"
+Top2.Parent = MainName
+Top2.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Top2.Position = UDim2.new(0.230547547, 0, 2.90384603, 0)
+Top2.Size = UDim2.new(0, 72, 0, 36)
+Top2.Font = Enum.Font.SourceSans
+Top2.Text = "Top"
+Top2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Top2.TextScaled = true
+Top2.TextSize = 14.000
+Top2.TextWrapped = true
+
+Bottom1.Name = "Bottom1"
+Bottom1.Parent = MainName
+Bottom1.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Bottom1.Position = UDim2.new(0.469740629, 0, 4.07692289, 0)
+Bottom1.Size = UDim2.new(0, 72, 0, 36)
+Bottom1.Font = Enum.Font.SourceSans
+Bottom1.Text = "Bottom"
+Bottom1.TextColor3 = Color3.fromRGB(0, 0, 0)
+Bottom1.TextScaled = true
+Bottom1.TextSize = 14.000
+Bottom1.TextWrapped = true
+
+Top3.Name = "Top3"
+Top3.Parent = MainName
+Top3.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Top3.Position = UDim2.new(0.469740629, 0, 2.90384603, 0)
+Top3.Size = UDim2.new(0, 72, 0, 36)
+Top3.Font = Enum.Font.SourceSans
+Top3.Text = "Top"
+Top3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Top3.TextScaled = true
+Top3.TextSize = 14.000
+Top3.TextWrapped = true
+
+Bottom4.Name = "Bottom4"
+Bottom4.Parent = MainName
+Bottom4.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Bottom4.Position = UDim2.new(0.746397734, 0, 4.07692289, 0)
+Bottom4.Size = UDim2.new(0, 72, 0, 36)
+Bottom4.Font = Enum.Font.SourceSans
+Bottom4.Text = "Bottom"
+Bottom4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Bottom4.TextScaled = true
+Bottom4.TextSize = 14.000
+Bottom4.TextWrapped = true
+
+Top4.Name = "Top4"
+Top4.Parent = MainName
+Top4.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
+Top4.Position = UDim2.new(0.746397734, 0, 2.90384603, 0)
+Top4.Size = UDim2.new(0, 72, 0, 36)
+Top4.Font = Enum.Font.SourceSans
+Top4.Text = "Top"
+Top4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Top4.TextScaled = true
+Top4.TextSize = 14.000
+Top4.TextWrapped = true
+
+TextLabel.Parent = MainName
+TextLabel.Active = true
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0, 0, 0.961538434, 0)
+TextLabel.Size = UDim2.new(0, 338, 0, 25)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Teleporters"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+Red.Name = "Red"
+Red.Parent = Main
+Red.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Red.Position = UDim2.new(0, 0, 0.118483417, 0)
+Red.Size = UDim2.new(0, 72, 0, 61)
+Red.Font = Enum.Font.SourceSans
+Red.Text = "Red"
+Red.TextColor3 = Color3.fromRGB(0, 0, 0)
+Red.TextScaled = true
+Red.TextSize = 14.000
+Red.TextWrapped = true
+
+Blue.Name = "Blue"
+Blue.Parent = Main
+Blue.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
+Blue.Position = UDim2.new(0.230547532, 0, 0.113744073, 0)
+Blue.Size = UDim2.new(0, 72, 0, 62)
+Blue.Font = Enum.Font.SourceSans
+Blue.Text = "Blue"
+Blue.TextColor3 = Color3.fromRGB(0, 0, 0)
+Blue.TextScaled = true
+Blue.TextSize = 14.000
+Blue.TextWrapped = true
+
+Green.Name = "Green"
+Green.Parent = Main
+Green.BackgroundColor3 = Color3.fromRGB(85, 255, 0)
+Green.Position = UDim2.new(0.469740599, 0, 0.109004736, 0)
+Green.Size = UDim2.new(0, 70, 0, 61)
+Green.Font = Enum.Font.SourceSans
+Green.Text = "Green"
+Green.TextColor3 = Color3.fromRGB(0, 0, 0)
+Green.TextScaled = true
+Green.TextSize = 14.000
+Green.TextWrapped = true
+
+Yellow.Name = "Yellow"
+Yellow.Parent = Main
+Yellow.BackgroundColor3 = Color3.fromRGB(255, 255, 0)
+Yellow.Position = UDim2.new(0.73198843, 0, 0.109004736, 0)
+Yellow.Size = UDim2.new(0, 77, 0, 62)
+Yellow.Font = Enum.Font.SourceSans
+Yellow.Text = "Yellow"
+Yellow.TextColor3 = Color3.fromRGB(0, 0, 0)
+Yellow.TextScaled = true
+Yellow.TextSize = 14.000
+Yellow.TextWrapped = true
+
+Credits_2.Name = "Credits"
+Credits_2.Parent = Main
+Credits_2.Active = true
+Credits_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Credits_2.BackgroundTransparency = 0.300
+Credits_2.Position = UDim2.new(1.40922189, 0, -2.04995966, 0)
+Credits_2.Size = UDim2.new(0, 347, 0, 350)
+Credits_2.Visible = false
+
+Credits_3.Name = "Credits"
+Credits_3.Parent = Credits_2
+Credits_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits_3.BackgroundTransparency = 1.000
+Credits_3.Position = UDim2.new(0.0518731996, 0, 0.0762827545, 0)
+Credits_3.Size = UDim2.new(0, 311, 0, 50)
+Credits_3.Font = Enum.Font.SourceSans
+Credits_3.Text = "Credits to: xleaturex For Making The GUI And Scripts!"
+Credits_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits_3.TextScaled = true
+Credits_3.TextSize = 14.000
+Credits_3.TextWrapped = true
+
+UPDATELOG.Name = "UPDATE LOG"
+UPDATELOG.Parent = Credits_2
+UPDATELOG.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UPDATELOG.BackgroundTransparency = 1.000
+UPDATELOG.Position = UDim2.new(0.0259365998, 0, 0.253040045, 0)
+UPDATELOG.Size = UDim2.new(0, 311, 0, 50)
+UPDATELOG.Font = Enum.Font.SourceSans
+UPDATELOG.Text = "Update log:"
+UPDATELOG.TextColor3 = Color3.fromRGB(255, 255, 255)
+UPDATELOG.TextScaled = true
+UPDATELOG.TextSize = 14.000
+UPDATELOG.TextWrapped = true
+
+ESP.Name = "ESP"
+ESP.Parent = Credits_2
+ESP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ESP.BackgroundTransparency = 1.000
+ESP.Position = UDim2.new(0.0252972171, 0, 0.426109731, 0)
+ESP.Size = UDim2.new(0, 234, 0, 50)
+ESP.Font = Enum.Font.SourceSans
+ESP.Text = "Added ESP Function"
+ESP.TextColor3 = Color3.fromRGB(255, 255, 255)
+ESP.TextScaled = true
+ESP.TextSize = 14.000
+ESP.TextWrapped = true
+
+Close.Name = "Close"
+Close.Parent = Credits_2
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.Position = UDim2.new(0.855305493, 0, 0, 0)
+Close.Size = UDim2.new(0, 45, 0, 33)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 0, 0)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+
+ESP_2.Name = "ESP"
+ESP_2.Parent = Credits_2
+ESP_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ESP_2.BackgroundTransparency = 1.000
+ESP_2.Position = UDim2.new(0.0252972171, 0, 0.566109717, 0)
+ESP_2.Size = UDim2.new(0, 234, 0, 50)
+ESP_2.Font = Enum.Font.SourceSans
+ESP_2.Text = "Added Kill All Function "
+ESP_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ESP_2.TextScaled = true
+ESP_2.TextSize = 14.000
+ESP_2.TextWrapped = true
+
+FunctionFrameLol.Name = "FunctionFrameLol"
+FunctionFrameLol.Parent = Main
+FunctionFrameLol.Active = true
+FunctionFrameLol.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+FunctionFrameLol.Position = UDim2.new(-0.000812893326, 0, -0.249011874, 0)
+FunctionFrameLol.Size = UDim2.new(0, 347, 0, 263)
+FunctionFrameLol.Visible = false
+
+Functions.Name = "Functions"
+Functions.Parent = FunctionFrameLol
+Functions.Active = true
+Functions.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Functions.BackgroundTransparency = 1.000
+Functions.Position = UDim2.new(0.0259365998, 0, 0.24115926, 0)
+Functions.Size = UDim2.new(0, 338, 0, 25)
+Functions.Font = Enum.Font.SourceSans
+Functions.Text = "Functions"
+Functions.TextColor3 = Color3.fromRGB(255, 255, 255)
+Functions.TextScaled = true
+Functions.TextSize = 14.000
+Functions.TextWrapped = true
+
+Name_2.Name = "Name"
+Name_2.Parent = FunctionFrameLol
+Name_2.Active = true
+Name_2.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+Name_2.Position = UDim2.new(0, 0, -0.000677939504, 0)
+Name_2.Size = UDim2.new(0, 347, 0, 52)
+Name_2.Font = Enum.Font.SourceSans
+Name_2.Text = "Doomspire Fucker"
+Name_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name_2.TextScaled = true
+Name_2.TextSize = 14.000
+Name_2.TextWrapped = true
+
+ESP_3.Name = "ESP"
+ESP_3.Parent = FunctionFrameLol
+ESP_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ESP_3.BackgroundTransparency = 0.400
+ESP_3.Position = UDim2.new(0.0259366017, 0, 0.361216724, 0)
+ESP_3.Size = UDim2.new(0, 104, 0, 43)
+ESP_3.Font = Enum.Font.SourceSans
+ESP_3.Text = "ESP"
+ESP_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+ESP_3.TextScaled = true
+ESP_3.TextSize = 14.000
+ESP_3.TextWrapped = true
+
+Killall.Name = "Kill all"
+Killall.Parent = FunctionFrameLol
+Killall.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Killall.BackgroundTransparency = 0.400
+Killall.Position = UDim2.new(0.674351573, 0, 0.361216724, 0)
+Killall.Size = UDim2.new(0, 104, 0, 43)
+Killall.Font = Enum.Font.SourceSans
+Killall.Text = "Kill all"
+Killall.TextColor3 = Color3.fromRGB(255, 255, 255)
+Killall.TextScaled = true
+Killall.TextSize = 14.000
+Killall.TextWrapped = true
+Killall.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Fe6zYuCJ"))()
+end)
+
+Functions_2.Name = "Functions"
+Functions_2.Parent = Main
+Functions_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Functions_2.BackgroundTransparency = 0.900
+Functions_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Functions_2.Position = UDim2.new(1, 0, 0.195451722, 0)
+Functions_2.Size = UDim2.new(0, 73, 0, 27)
+Functions_2.Font = Enum.Font.SourceSans
+Functions_2.Text = "Functions"
+Functions_2.TextColor3 = Color3.fromRGB(129, 129, 129)
+Functions_2.TextScaled = true
+Functions_2.TextSize = 14.000
+Functions_2.TextWrapped = true
+
+RGBFrame.Name = "RGB Frame"
+RGBFrame.Parent = Main
+RGBFrame.Active = true
+RGBFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RGBFrame.Size = UDim2.new(0, 347, 0, 2)
+
+-- Scripts:
+
+local function IEKLYPB_fake_script() -- Credits.LocalScript 
+	local script = Instance.new('LocalScript', Credits)
+
+	local frame = script.Parent.Parent.Credits -- change “Test” to the name of the frane
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		end
+	end)
+	
+end
+coroutine.wrap(IEKLYPB_fake_script)()
+local function JYOI_fake_script() -- Top1.Top1 Script 
+	local script = Instance.new('LocalScript', Top1)
+
+	local Top1 = script.Parent
+	
+	Top1.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-105.706, 129.167, -2.69081)
+	end)
+end
+coroutine.wrap(JYOI_fake_script)()
+local function UDBFNHL_fake_script() -- T.Bottom 3 
+	local script = Instance.new('LocalScript', T)
+
+	local Top1 = script.Parent
+	
+	Top1.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-131.534, 24.7849, 0.472)
+	end)
+end
+coroutine.wrap(UDBFNHL_fake_script)()
+local function LAYGQQ_fake_script() -- Bottom2Script.Bottom 2 
+	local script = Instance.new('LocalScript', Bottom2Script)
+
+	local Top1 = script.Parent
+	
+	Top1.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-0.4, 24.8, 131)
+	end)
+end
+coroutine.wrap(LAYGQQ_fake_script)()
+local function DYMY_fake_script() -- Top2.Top2 Script 
+	local script = Instance.new('LocalScript', Top2)
+
+	local Top2 = script.Parent
+	
+	Top2.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (-2.3, 131.387, 91)
+	end)
+end
+coroutine.wrap(DYMY_fake_script)()
+local function ADSIFD_fake_script() -- Bottom1.Bottom1 Script 
+	local script = Instance.new('LocalScript', Bottom1)
+
+	local Bottom1= script.Parent
+	
+	Bottom1.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-0.4, 24.7726, -131)
+	end)
+end
+coroutine.wrap(ADSIFD_fake_script)()
+local function CUEF_fake_script() -- Top3.Top 3 Script 
+	local script = Instance.new('LocalScript', Top3)
+
+	local Top3 = script.Parent
+	
+	Top3.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new (1.4, 131.383, -81)
+	end)
+end
+coroutine.wrap(CUEF_fake_script)()
+local function AVDEDCB_fake_script() -- Bottom4.Bottom script 4 
+	local script = Instance.new('LocalScript', Bottom4)
+
+	local Top1 = script.Parent
+	
+	Top1.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(120.929, 23.5735, -2.99175)
+	end)
+end
+coroutine.wrap(AVDEDCB_fake_script)()
+local function WTWZOYT_fake_script() -- Top4.Top4 Script 
+	local script = Instance.new('LocalScript', Top4)
+
+	local Top4 = script.Parent
+	
+	Top4.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(103.336, 129.132, 1.72236)
+	end)
+end
+coroutine.wrap(WTWZOYT_fake_script)()
+local function YSTGUJ_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+	
+end
+coroutine.wrap(YSTGUJ_fake_script)()
+local function QVUFU_fake_script() -- Functions_2.LocalScript 
+	local script = Instance.new('LocalScript', Functions_2)
+
+	script.Parent.MouseButton1Down:connect(function()
+		if script.Parent.Parent.FunctionFrameLol.Visible == false then
+			script.Parent.Parent.FunctionFrameLol.Visible = true
+			script.Parent.Text = "Functions"
+		else
+			script.Parent.Parent.FunctionFrameLol.Visible = false
+			script.Parent.Text = "Functions"
+		end
+	end)
+end
+coroutine.wrap(QVUFU_fake_script)()
+local function NYLX_fake_script() -- RGBFrame.LocalScript 
+	local script = Instance.new('LocalScript', RGBFrame)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.01)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(NYLX_fake_script)()
